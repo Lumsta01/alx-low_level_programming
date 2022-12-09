@@ -4,7 +4,7 @@
 /**
  * main - line of code using write
  *
- * Return: 0
+ * Return: 1
 */
 int main(void)
 {
