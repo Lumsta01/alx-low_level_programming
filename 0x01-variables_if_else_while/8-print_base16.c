@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - prints all the numbers of base 16 in lowercase
+/**
+ *main - C program printing all numbers of base 16 in lowercase
  *
  * Return: 0
  */
