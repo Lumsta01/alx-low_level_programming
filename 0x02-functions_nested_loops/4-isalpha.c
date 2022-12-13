@@ -1,9 +1,11 @@
+
+
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: 0
+ * _isalpha - Return 1 if c is a letter. lowercase or uppercase
+ * @c: unsigned int value to be compared with ASCII value
+ * Return: 1 if its alphabet otherwise 0
  */
 
 int _isalpha(int c)
