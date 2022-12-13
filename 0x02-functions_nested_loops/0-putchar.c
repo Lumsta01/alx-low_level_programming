@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <main.h>>
 
 /**
  * main - print purchar
@@ -9,6 +8,13 @@
 
 int main(void)
 {
-	printf("_purchar\n");
+	printf("_\n");
+	printf("p\n");
+	printf("u\n");
+	printf("t\n");
+	printf("c\n");
+	printf("h\n");
+	printf("a\n");
+	printf("r\n");
 	return (0);
 }
