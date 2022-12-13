@@ -1,20 +1,26 @@
-#include <main.h>>
+#include "main.h"
 
 /**
- * main - print purchar
+ *main - print putchar
  *
- * Return - always 0
-*/
+ *Return 0 
+ */
 
 int main(void)
+
 {
-	printf("_\n");
-	printf("p\n");
-	printf("u\n");
-	printf("t\n");
-	printf("c\n");
-	printf("h\n");
-	printf("a\n");
-	printf("r\n");
+
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
+
 }
+
