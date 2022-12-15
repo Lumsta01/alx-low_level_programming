@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - print slash
- * @n: params
+ * print_diagonal - function that print a diagonal line
+ * @n: number of times \ is printed
  */
 
 void print_diagonal(int n)
