@@ -6,14 +6,27 @@
  * Return: 0
  */
 
+
 void more_numbers(void)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; i <= 14; i++)
+	i = 0;
+
+	while (i < 10)
 	{
-		_putchar(i * 10);
-	}
-	_putchar("\n")
+		for (j = 0; j < 15; j++)
+		{
+			if (j >= 10)
+			{
+				_putchar((j / 10) + 48);
+			}
+			_putchar((j % 10) + 48);
+		}
 
+		_putchar('\n');
+
+		i++;
+	}
 }
+
