@@ -1,14 +1,13 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * reset_to_98 - pointer to an int updating the value of pounts to 98
- *@n: parameter
- *Return: 0
+ * reset_to_98 - update pointer value to 98
+ * @n: parameter
+ * Return: 0
  */
 
-int void reset_to_98(int *n)
+void reset_to_98(int *n)
 {
-	*n = 98
+	*n = 98;
 }
-
-
