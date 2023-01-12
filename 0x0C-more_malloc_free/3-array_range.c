@@ -3,47 +3,23 @@
 #include "main.h"
 
 /**
- * _realloc -  reallocates a memory block using malloc and free
- * @ptr: pointer
- * @old_size: old size
- * @new_size: new size
- * Return: pointer
+ * array_range - creates an array of integers
+ * @min: minimum
+ * @max: maximum
+ * Return: array
  */
 
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+int *array_range(int min, int max)
 {
-	char *clone, *relloc;
-	unsigned int i;
+	int *arr, i = 0, t = min;
 
-	if (ptr != NULL)
-	{
-		clone = ptr;
-	}
-	else
-	{
-		return (malloc(new_size));
-	}
-	if (new_size == old_size)
-	{
-		return (ptr);
-	}
-	if (new_size == 0 && ptr != NULL)
-	{
-		free(ptr);
-
+	if (min > max)
 		return (0);
-	}
-	relloc = malloc(new_size);
+	arr = malloc((max - min + 1) * sizeof(int));
 
-	if (relloc == NULL)
-	{
+	if (!arr)
 		return (0);
-	}
-	for (i = 0; i < (old_size || i < new_size); i++)
-	{
-		*(relloc + i) = clone[i];
-	}
-	free(ptr);
-
-	return (relloc);
+	while (i <= max - min)
+		arr[i++] = t++;
+	return (arr);
 }
